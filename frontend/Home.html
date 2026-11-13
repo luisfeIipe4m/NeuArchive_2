@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NeuArchive | Início</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Menu de navegação -->
+        <nav class="header">
+
+            <a href="Home.html" class="logo">NEUARCHIVE</a>
+
+            <div class="nav">
+                <a href="Home.html" class="active">Início</a>
+                <a href="#">Perfil</a>
+                <a href="#">Agendamentos</a>
+                <a href="Report.html">Relatórios</a>
+                <a href="#">Configurações</a>
+            </div>
+
+            <div class="header-actions">
+                <a href="Login.html">Login</a>
+                <a href="Register.html">Registrar</a>
+            </div>
+
+        </nav>
+
+        <!-- Conteúdo principal -->
+        <section class="hero-content">
+
+            <h1>
+                SEUS<br>
+                ARQUIVOS<br>
+                EM UM SÓ LUGAR
+            </h1>
+
+            <p>
+                Bem-vindo ao NeuArchive!
+                Um sistema de armazenamento em nuvem
+                para guardar, organizar e gerenciar
+                seus arquivos de maneira simples e segura.
+            </p>
+
+        </section>
+
+        <!-- Card lateral -->
+        <aside class="next-card">
+
+            <span class="label">NEUARCHIVE</span>
+
+            <div class="card-info">
+
+                <span class="arrow">→</span>
+
+                <h2>Organização</h2>
+
+                <p>Seus arquivos sempre organizados.</p>
+
+            </div>
+
+        </aside>
+
+        <!-- Informações inferiores -->
+        <section class="bottom-info">
+
+            <div class="info-item">
+                <h3>Armazenamento</h3>
+                <p>Guarde seus arquivos em um só lugar.</p>
+            </div>
+
+            <div class="info-item">
+                <h3>Praticidade</h3>
+                <p>Acesse seus documentos facilmente.</p>
+            </div>
+
+        </section>
+
+        <!-- Upload de arquivos -->
+        <section class="upload-area">
+
+            <h2>Enviar arquivo</h2>
+
+            <p>
+                Escolha um arquivo para adicionar ao seu armazenamento.
+            </p>
+
+            <form action="/upload" method="post"
+                enctype="multipart/form-data">
+
+                <label for="arquivo" class="file-label">
+                    <span>＋</span>
+                    Escolher arquivo
+                </label>
+
+                <input
+                    type="file"
+                    name="arquivo"
+                    id="arquivo"
+                    required
+                >
+
+                <button type="submit">
+                    Enviar arquivo →
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
