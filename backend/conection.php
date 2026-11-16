@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
 $user = "root";
-$pass = "usbw";
-$bd = "artquive";
+$pass = "";
+$bd = "BD-Nome";
 
 $conn = new mysqli($host, $user, $pass, $bd);
 if ($conn->connect_error) {
